@@ -9,7 +9,7 @@ Future<void> main(List<String> arg) async {
 }
 
 Future<String?> callChatGPT(String prompt) async {
-  const apiKey = "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";
+  const apiKey = "<YOUR-OPEN-AI-API-KEY>";
   const apiUrl = "https://api.openai.com/v1/completions";
 
   final headers = {
